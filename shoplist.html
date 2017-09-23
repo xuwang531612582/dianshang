@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="img/favicon.png" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+		<link rel="stylesheet" href="css/responsive.css">
+		<link rel="stylesheet" type="text/css" href="css/shop.css" />
+		<title>电商-首页</title>
+
+	</head>
+
+	<body>
+		<!--页眉开始-->
+		<header class="buddy-header">
+			<div class="top-bar">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<ul class="n-menu">
+								<li>
+									<a href="javascript:;"><i class="fa fa-user"></i>我的账户</a>
+									<ul class="d-down account">
+										<li class="first">
+											<a href="login.html">登录</a>
+										</li>
+										<li class="last">
+											<a href="javascript:;">退出</a>
+										</li>
+										<li>
+											<a href="javascript:;">简况</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-usd"></i>货币</a>
+									<ul class="d-down currency">
+										<li>
+											<a href="javascript:;">欧元</a>
+										</li>
+										<li>
+											<a href="javascript:;">英镑</a>
+										</li>
+										<li>
+											<a href="javascript:;">第纳尔</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="#" title=""><img src="img/China-Flag.png" alt="" />中文</a>
+									<ul class="d-down language">
+										<li>
+											<a href="javascript:;">英语</a>
+										</li>
+										<li>
+											<a href="javascript:;">法语</a>
+										</li>
+										<li>
+											<a href="javascript:;">日语</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-12 text-center">
+							<ul class="tp-right n-menu">
+								<li class="first">
+									<a href="login.html"><i class="fa fa-sign-in"></i>登录</a>
+								</li>
+								<li>|</li>
+								<li>
+									<a href="register.html"><i class="fa fa-sign-in"></i>注册</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="logo-menu-sec">
+				<div class="container">
+					<div class="row">
+						<div class="logo-sec">
+							<div class="col-md-3 col-lg-3 col-sm-4 col-xs-12">
+								<div class="logo">
+									<a href="index.html" title=""><img src="img/logo.png" alt="" /></a>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-5 col-sm-4 hidden-xs">
+								<ul class="quick-prom">
+									<li><i class="fa fa-phone"></i> <span>咨询方式 : 088-55356789</span></li>
+									<li class="hidden-sm"><i class="fa fa-envelope-o"></i><span><a href="#">mail@example.com</a></span></li>
+								</ul>
+							</div>
+							<div class="col-md-3 col-lg-4 col-sm-4 col-xs-12">
+								<div class="product-filter-form">
+									<form>
+										<input type="text" id="search" placeholder="搜索商品" />
+										<button type="button" id="searchbtn"><i class="fa fa-search"></i></button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="main-menu-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-10 col-sm-9 col-xs-12">
+							<nav class="main-menu">
+								<ul>
+									<li class="active">
+										<a href="index.html"> <i class="fa fa-home"></i>主页</a>
+									</li>
+									<li>
+										<a href="shoplist.html">热卖商品</a>
+										<div class="mega-menu common-mega">
+											<div class="col-md-3 col-sm-3">
+												<div class="mega-menu-lists">
+													<a title="" href="shoplist.html"><span>衬衫</span></a>
+													<a title="" href="shoplist.html">长衬衫</a>
+													<a title="" href="shoplist.html">短衬衫</a>
+													<a title="" href="shoplist.html">半身衬衫</a>
+													<a title="" href="shoplist.html">全衬衫</a>
+												</div>
+											</div>
+											<div class="col-md-3 col-sm-3">
+												<div class="mega-menu-lists">
+													<a title="" href="shoplist.html"><span>裤</span></a>
+													<a title="" href="shoplist.html">长裤</a>
+													<a title="" href="shoplist.html">短裤</a>
+													<a title="" href="shoplist.html">半身裤</a>
+													<a title="" href="shoplist.html">全身裤</a>
+												</div>
+											</div>
+											<div class="col-md-3 col-sm-3">
+												<div class="mega-menu-lists">
+													<a title="" href="shoplist.html"><span>西装外套</span></a>
+													<a title="" href="shoplist.html">长西装</a>
+													<a title="" href="shoplist.html">短外套</a>
+													<a title="" href="shoplist.html">半西装外套</a>
+													<a title="" href="shoplist.html">全西装外套</a>
+												</div>
+											</div>
+											<div class="col-md-3 col-sm-3">
+												<div class="mega-menu-lists">
+													<a title="" href="shoplist.html"><span>鞋</span></a>
+													<a title="" href="shoplist.html">小码</a>
+													<a title="" href="shoplist.html">中码</a>
+													<a title="" href="shoplist.html">大码</a>
+													<a title="" href="shoplist.html">特大码</a>
+												</div>
+											</div>
+											<div class="mega-img">
+												<a href="javascript:;"><img src="img/ad3.jpg" alt=""></a>
+											</div>
+										</div>
+
+									</li>
+									<li>
+										<a href="shoplist.html">购物街</a>
+										<ul class="ddown">
+											<li class="mega-menu-lists">
+												<a href="shoplist.html">牛仔裤</a>
+											</li>
+											<li class="mega-menu-lists">
+												<a href="shoplist.html">衬衣</a>
+											</li>
+											<li class="mega-menu-lists">
+												<a href="shoplist.html">裤子</a>
+											</li>
+											<li class="mega-menu-lists">
+												<a href="shoplist.html">配饰</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="javascript:;">关于我们</a>
+									</li>
+									<li>
+										<a href="shoplist.html">热门商店</a>
+									</li>
+									<li>
+										<a href="connectus.html">联系我们</a>
+									</li>
+									<li>
+										<a href="javascript:;">博客日志</a>
+									</li>
+									<li class="mega-parent">
+										<a href="javascript:;">相关网站</a>
+										<div class="mega-menu common-mega">
+											<div class="col-md-3 col-sm-3">
+												<div class="mega-menu-lists">
+													<a title="" href="javascript:;"><span>网站社区一</span></a>
+													<a href="javascript:;">关于我们</a>
+													<a href="javascript:;">博客日志</a>
+													<a href="javascript:;">全网博客</a>
+													<a href="javascript:;">博客列表</a>
+													<a href="javascript:;">博客专栏</a>
+													<a href="javascript:;">博客社区</a>
+												</div>
+											</div>
+											<div class="col-md-3 col-sm-3">
+												<div class="mega-menu-lists">
+													<a title="" href="#"><span>网站社区二</span></a>
+													<a href="javascript:;">博客分享</a>
+													<a href="cart.html">购物车</a>
+													<a href="#">结账</a>
+													<a href="connectus.html">联系方式</a>
+													<a href="javascript:;">常见问题</a>
+													<a href="login.html">登录</a>
+												</div>
+											</div>
+											<div class="col-md-3 col-sm-3">
+												<div class="mega-menu-lists">
+													<a title="" href="javascript:;"><span>网页社区三</span></a>
+													<a href="shoplist.html">商店</a>
+													<a href="shoplist.html">全网商铺</a>
+													<a href="shoplist.html">所有店铺</a>
+													<a href="shoplist.html">商店列表</a>
+													<a href="javascript:;">意愿清单</a>
+													<a href="javascript:;">敬请期待</a>
+												</div>
+											</div>
+										</div>
+
+									</li>
+									<li>
+										<a href="javascript:;">视频链接</a>
+										<ul class="ddown">
+											<li class="mega-menu-lists">
+												<a target="_blank" href="javascript:;">更改标志</a>
+											</li>
+											<li class="mega-menu-lists">
+												<a target="_blank" href="javascript:;">更改版权</a>
+											</li>
+											<li class="mega-menu-lists">
+												<a target="_blank" href="javascript:;">更改地点</a>
+											</li>
+											<li class="mega-menu-lists">
+												<a target="_blank" href="javascript:;">联系邮箱</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+
+							</nav>
+
+							<div class="mobile-menu-area">
+								<nav id="mobile-menu">
+									<ul>
+										<li>
+											<a href="index.html">主页</a>
+										</li>
+										<li>
+											<a href="shoplist.html">热卖商品</a>
+											<ul>
+												<li>
+													<a href="shoplist.html">衬衫</a>
+												</li>
+												<li>
+													<a href="shoplist.html">裤</a>
+												</li>
+												<li>
+													<a href="shoplist.html">西装外套</a>
+												</li>
+												<li>
+													<a href="shoplist.html">鞋</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="shoplist.html">购物街</a>
+											<ul>
+												<li class="#">
+													<a href="shoplist.html">牛仔裤</a>
+												</li>
+												<li class="#">
+													<a href="shoplist.html">衬衣</a>
+												</li>
+												<li class="#">
+													<a href="shoplist.html">裤子</a>
+												</li>
+												<li class="#">
+													<a href="shoplist.html">配饰</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="javascript:;">关于我们</a>
+										</li>
+										<li>
+											<a href="shoplist.html">热门商店</a>
+										</li>
+										<li>
+											<a href="connectus.html">联系我们</a>
+										</li>
+										<li>
+											<a href="shoplist.html">产品详情</a>
+										</li>
+										<li>
+											<a href="javascript:;">博客日志</a>
+										</li>
+										<li>
+											<a href="javascript:;">相关网站</a>
+											<ul>
+												<li class="#">
+													<a href="javascript:;">关于我们</a>
+												</li>
+												<li class="#">
+													<a href="javascript:;">博客日志</a>
+												</li>
+												<li class="#">
+													<a href="javascript:;">全网博客</a>
+												</li>
+												<li class="#">
+													<a href="javascript:;">博客列表</a>
+												</li>
+												<li class="#">
+													<a href="javascript:;">博客专栏</a>
+												</li>
+												<li class="#">
+													<a href="javascript:;">博客社区</a>
+												</li>
+												<li class="#">
+													<a href="javascript:;">博客分享</a>
+												</li>
+												<li class="#">
+													<a href="cart.html">购物车</a>
+												</li>
+												<li class="#">
+													<a href="#">结账</a>
+												</li>
+												<li class="#">
+													<a href="connectus.html">联系我们</a>
+												</li>
+												<li class="#">
+													<a href="javascript:;">常见问题</a>
+												</li>
+												<li class="#">
+													<a href="login.html">登录</a>
+												</li>
+												<li class="#">
+													<a href="shoplist.html">商店</a>
+												</li>
+												<li class="#">
+													<a href="shoplist.html">全网商铺</a>
+												</li>
+												<li class="#">
+													<a href="shoplist.html">所有店铺</a>
+												</li>
+												<li class="#">
+													<a href="shoplist.html">店铺列表</a>
+												</li>
+												<li class="#">
+													<a href="javascript:;">意愿清单</a>
+												</li>
+												<li class="#">
+													<a href="javascript:;">敬请期待</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</nav>
+							</div>
+
+						</div>
+
+						<div class="col-md-2 col-sm-3 hidden-xs">
+							<div class="cart-wishlist">
+								<ul>
+									<li>
+										<a href="javascript:;">
+											<div class="wishlist">
+												<div class="wish-list-inner">
+													<i class="fa fa-heart"></i>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="javascript:;">
+											<div class="wish-list-inner">
+												<div class="cart-icon">
+													<i class="fa fa-shopping-cart" id="end"> </i>
+													<div class="cart-count text-center">
+														<strong>0</strong>
+													</div>
+												</div>
+											</div>
+										</a>
+										<div class="cart-sub">
+											<div class="all_carts_item">
+
+											</div>
+											<div class="minicart_total_checkout">
+												合计<span><span class="amount">$13.00</span></span>
+											</div>
+											<div class="btn-mini-cart inline-lists">
+												<a href="javascript:;" class="button btn-viewcart">浏览购物车</a>
+												<a href="javascript:;" class="button btn-checkout" title="Checkout">结账</a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--页眉结束-->
+
+		<!--页眉结束-->
+		<section class="theme">
+
+			<div class="breadcumb-area">
+				<div class="bread_main">
+					<div class="bread_hading text-center">
+						<h1>商品分类</h1>
+					</div>
+					<ol class="breadcrumb">
+						<li class="home">
+							<a href="index.html" title="go to home">home</a>
+						</li>
+						<li class="shop">
+							<a href="javascript:;">shop</a>
+						</li>
+					</ol>
+				</div>
+			</div>
+		</section>
+		<section class="shop-sidebar">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-4 col-xs-12">
+						<div class="total_widget ">
+							<aside class="aside_widget widget-categories">
+								<h3 class="sidebar_title">分类</h3>
+								<ul class="sidebar_menu">
+									<li>
+										<i class="glyphicon glyphicon-triangle-right"></i>
+										<a href="#">衣服</a>
+										<span class="count">( 1 )</span>
+									</li>
+									<li>
+										<i class="glyphicon glyphicon-triangle-right"></i>
+										<a href="#">衣服</a>
+										<span class="count">( 1 )</span>
+									</li>
+									<li>
+										<i class="glyphicon glyphicon-triangle-right"></i>
+										<a href="#">衣服</a>
+										<span class="count">( 1 )</span>
+									</li>
+									<li>
+										<i class="glyphicon glyphicon-triangle-right"></i>
+										<a href="#">衣服</a>
+										<span class="count">( 1 )</span>
+									</li>
+								</ul>
+							</aside>
+							<aside class="aside_widget shop-filter">
+								<h3 class="sidebar_title">价格筛选</h3>
+								<div class="info_widget">
+									<div class="price_filter">
+										<div class="slider-range">
+											<div id="range" class="ui-slider-range ui-widget-header ui-corner-all"></div>
+											<span id="handle_right" class="ui-slider-handle ui-state-default ui-corner-all"></span>
+											<span id="handle_left" class="ui-slider-handle ui-state-default ui-corner-all"></span>
+										</div>
+										<div class="price_slider_amount">
+											<span class="btn">过滤</span>
+											<input id="p_text" type="text" placeholder="add your price" />
+										</div>
+									</div>
+								</div>
+							</aside>
+							<aside class="aside_widget aside-brand">
+								<h3 class="sidebar_title">产品品牌</h3>
+								<ul class="sidebar_menu">
+									<li>
+										<i class="glyphicon glyphicon-triangle-right"></i>
+										<a href="#">亚拖累</a>
+										<span class="count">( 1 )</span>
+									</li>
+									<li>
+										<i class="glyphicon glyphicon-triangle-right"></i>
+										<a href="#">亚拖累</a>
+										<span class="count">( 1 )</span>
+									</li>
+									<li>
+										<i class="glyphicon glyphicon-triangle-right"></i>
+										<a href="#">亚拖累</a>
+										<span class="count">( 1 )</span>
+									</li>
+									<li>
+										<i class="glyphicon glyphicon-triangle-right"></i>
+										<a href="#">亚拖累</a>
+										<span class="count">( 1 )</span>
+									</li>
+								</ul>
+							</aside>
+							<aside class="aside_widget aside-best-sell content">
+								<h3 class="sidebar_title">最畅销</h3>
+								<div class="col best_sell">
+									<div class="sp_img">
+										<a href="details.html?goodId=245154">
+											<img src="http://imgs-qn.iliangcang.com/ware/goods/big/2/245/245154.jpg?t=1479892935">
+										</a>
+
+										<div class="sp_btn">
+											<span class="collection btn" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="收藏" data-original-title="" title="">
+									<i class="glyphicon glyphicon-heart"></i>
+								</span>
+											<span class="addCart btn" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="添加到购物车" data-original-title="" title="">
+									<i class="glyphicon glyphicon-shopping-cart"></i>
+								</span>
+											<span class="qSearch btn" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="快速浏览" data-original-title="" title="">
+									<i class="glyphicon glyphicon-search"></i>
+								</span>
+										</div>
+									</div>
+									<div class="sp_info">
+										<a href="details.html?goodId=245154">
+											<p class="sp_title">轻型款鸵鸟枕【酒红色】</p>
+										</a>
+
+										<p class="price">
+											<span class="persale">10%</span>
+											<span class="new_price">$ 299.00</span>
+											<span class="old_price">$345</span>
+										</p>
+									</div>
+								</div>
+							</aside>
+							<aside class="aside_widget aside-hot-sell">
+								<h3 class="sidebar_title">热买</h3>
+							</aside>
+							<aside class="aside_widget product-tag">
+								<h3 class="sidebar_title">热门标签</h3>
+								<ul class="clearfix">
+									<li><a href="#" class="btn">最佳</a></li>
+									<li><a href="#" class="btn">时尚</a></li>
+									<li><a href="#" class="btn">妇女</a></li>
+									<li><a href="#" class="btn">男人</a></li>
+									<li><a href="#" class="btn">画廊</a></li>
+									<li><a href="#" class="btn">最新</a></li>
+									<li><a href="#" class="btn">收藏男人</a></li>
+									<li><a href="#" class="btn">顶级销售</a></li>
+									<li><a href="#" class="btn">时尚</a></li>
+									<li><a href="#" class="btn">更好</a></li>
+									<li><a href="#" class="btn">布</a></li>
+								</ul>
+							</aside>
+						</div>
+					</div>
+					<div class="col-md-9 col-sm-8 col-xs-12 content">
+						<div class="shop-list-grid-area">
+							<div class="product-filter">
+								<div class="row">
+									<div class="col-md-7 col-sm-7 col-xs-12">
+										<div class="sort">
+											<label class="hidden-xs">排序方式：</label>
+											<select id="input-sort">
+												<option value="">默认</option>
+												<option value="">价格(低>高)</option>
+												<option value="">价格(高>低)</option>
+												
+											</select>
+										</div>
+										<div class="compare-total hidden-md hidden-sm hidden-xs">
+											<a href="#" class="btn">
+												产品比较
+											</a>
+										</div>
+									</div>
+									<div class="col-md-5 col-sm-5 col-xs-12">
+										<div class="show-mode-right">
+											<div class="show_mode">
+												<ul class="tab_button">
+													<li class="active">
+														<a data-toggle="tab" title="格" href="#grid" aria-expanded="true"><i class="fa fa-th"></i></a>
+													</li>
+													<li>
+														<a data-toggle="tab" title="名单" href="#list" aria-expanded="false"><i class="fa fa-th-list"></i></a>
+													</li>
+												</ul>
+											</div>
+
+											<div class="limit  hidden-sm ">
+												<label class=" hidden-xs">显示：</label>
+												<select id="input-limit">
+													<option value="">9</option>
+													<option value="">12</option>
+													<option value="">25</option>
+													
+												</select>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="shop-product-area">
+							<div class="tab-content">
+								<!--grid-->
+								<div role="tabpanel" class="tab-pane fade active in tab-grid" id="grid">
+									<div class="row">
+										<div class="grid">
+
+										</div>
+									</div>
+
+									<!-- 分页页码区 -->
+									<nav aria-label="Page navigation" class="page-nav">
+										<div class="page-area">
+											<div class="page-wrap hidden-xs">
+												<ul class="pagination pagination-lg grid-page">
+
+													<!-- <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li> -->
+
+												</ul>
+
+											</div>
+
+										</div>
+
+										<div class="change-pager">
+											<span class="previous grid-prev"><a href="#grid">&larr;</a></span>
+											<span class="next grid-next"><a href="#grid">&rarr;</a></span>
+										</div>
+									</nav>
+
+									<!-- 分页结束 -->
+								</div>
+								<!--list-->
+								<div role="tabpanel" class="tab-pane fade tab-grid" id="list">
+									<div class="row">
+										<div class="list list-view">
+											<!--<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+												<div class="item-product item-product-list">
+													<div class="item-product-thumb">
+														<a href="#">
+															<img src="img/07.jpg" />
+														</a>
+													</div>
+													<div class="item-product-info2">
+														<h3><a href="#">Chemise SLimFon</a></h3>
+														<div class="ratting-review">
+															<div class="info-rating">
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star"></i>
+															</div>
+															<div class="order-number">
+																<span>（5颗星）</span>
+															</div>
+															<div class="review-add">
+																<a href="#">
+																	添加您的评论
+																</a>
+															</div>
+														</div>
+														<div class="info-product-price">
+															<label class="persale">10％</label>
+															<span>$ 45.99</span>
+															<del>$ 69.71</del>
+														</div>
+														<div class="list-item-des">
+															<span>eqrwt</span>
+														</div>
+														<div class="product-extra-link">
+															<span class="collection btn" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="收藏">
+																<i class="glyphicon glyphicon-heart"></i>
+															</span>
+															<span class="addCart btn" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="添加到购物车">
+																<i class="glyphicon glyphicon-shopping-cart"></i>
+															</span>
+															<span class="qSearch btn" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="快速浏览">
+																<i class="glyphicon glyphicon-search"></i>
+															</span>
+														</div>
+														<div class="item-bought">
+															<span class="btn">11买了</span>
+														</div>
+													</div>
+												</div>
+											</div>-->
+										</div>
+									</div>
+
+									<!-- 分页页码区 -->
+									<nav aria-label="Page navigation" class="page-nav">
+										<div class="page-area">
+											<div class="page-wrap hidden-xs">
+												<ul class="pagination pagination-lg list-page">
+
+													<!-- <li><a href="#">1</a></li>
+                              <li><a href="#">2</a></li>
+                              <li><a href="#">3</a></li> -->
+
+												</ul>
+
+											</div>
+
+										</div>
+
+										<div class="change-pager">
+											<span class="previous list-prev"><a href="#list"> &larr;</a></span>
+											<span class="next list-next"><a href="#list"> &rarr;</a></span>
+										</div>
+									</nav>
+
+									<!-- 分页结束 -->
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--页脚开始-->
+		<div class="section-info pt55 pb55">
+			<div class="parallax-bg">
+
+				<div class="section-content">
+					<div class="container">
+						<div class="row">
+
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<a class="info-block" href="#"><i class="fa fa-truck"></i>
+									<h3>免费送货</h3>
+									<p>免运费全国各地</p>
+								</a>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<a class="info-block" href="#"><i class="fa fa-headphones"></i>
+									<h3>支持定制</h3>
+									<p>全天候24小时支持</p>
+								</a>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<a class="info-block" href="#"><i class="fa fa-diamond"></i>
+									<h3>高品质</h3>
+									<p>拥有最好的品质和品牌</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="our_clients_area pt55 pb55">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+						<div class="section-title text-center pb30">
+							<h1>品牌与客户</h1>
+							<span></span>
+						</div>
+						<div class="client-active">
+							<div class="client-name">
+								<img src="img/client/01.png" alt="">
+							</div>
+							<div class="client-name">
+								<img src="img/client/02.png" alt="">
+							</div>
+							<div class="client-name">
+								<img src="img/client/03.png" alt="">
+							</div>
+							<div class="client-name">
+								<img src="img/client/04.png" alt="">
+							</div>
+							<div class="client-name">
+								<img src="img/client/05.png" alt="">
+							</div>
+							<div class="client-name">
+								<img src="img/client/06.png" alt="">
+							</div>
+							<div class="client-name">
+								<img src="img/client/04.png" alt="">
+							</div>
+							<div class="client-name">
+								<img src="img/client/03.png" alt="">
+							</div>
+							<div class="client-name">
+								<img src="img/client/02.png" alt="">
+							</div>
+							<div class="client-name">
+								<img src="img/client/01.png" alt="">
+							</div>
+							<div class="client-name">
+								<img src="img/client/05.png" alt="">
+							</div>
+							<div class="client-name">
+								<img src="img/client/06.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="footer-widgets-area pt55">
+				<section class="block">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="content-box no-margin go-simple">
+									<div class="row">
+										<div class="col-md-3 col-sm-4 col-xs-12">
+											<div class="widget about-widget">
+												<div class="logo">
+													<a href="index.html"><img alt="" src="img/logo2.png"></a>
+												</div>
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
+												<ul>
+													<li>
+														<i class="fa fa-map-marker"></i> Mukkey-doe Roboto square 2/1 House Hsmilton villa
+													</li>
+													<li>
+														<i class="fa fa-phone"></i> 055-99358766 &nbsp;&nbsp;&nbsp; 088-15698451
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="col-md-3 col-sm-4 col-xs-12">
+											<div class="widget how-to-buy">
+												<h3 class="heading2">客户服务</h3>
+												<ul>
+													<li>
+														<a href="#" title="">联系我们</a>
+													</li>
+													<li>
+														<a href="#" title="">网站地图</a>
+													</li>
+													<li>
+														<a href="#" title="">条款与条件</a>
+													</li>
+													<li>
+														<a href="#" title="">礼品</a>
+													</li>
+												</ul>
+											</div>
+
+										</div>
+										<div class="col-md-3 hidden-sm col-xs-12">
+											<div class="widget customer-services">
+												<h3 class="heading2">信息</h3>
+												<ul>
+													<li>
+														<a href="#" title="">我们的博客</a>
+													</li>
+													<li>
+														<a href="#" title="">关于我们的店铺</a>
+													</li>
+													<li>
+														<a href="#" title="">安全购物</a>
+													</li>
+													<li>
+														<a href="#" title="">隐私政策</a>
+													</li>
+												</ul>
+											</div>
+
+										</div>
+										<div class="col-md-3 col-sm-4 col-xs-12">
+											<div class="widget news-letter">
+												<h3 class="heading2">新闻名注册</h3>
+												<p>订阅新品上架和其他折扣信息的接收</p>
+												<form>
+													<input type="text" placeholder="请输入你的邮箱" />
+													<button type="submit"><i class="fa fa-search"></i></button>
+												</form>
+												<ul class="social-buttons">
+													<li>
+														<a class="fbook" href="#" title=""><i class="fa fa-facebook"></i></a>
+													</li>
+													<li>
+														<a class="frss" href="#" title=""><i class="fa fa-rss"></i></a>
+													</li>
+													<li>
+														<a class="tublr" href="#" title=""><i class="fa fa-linkedin"></i></a>
+													</li>
+													<li>
+														<a class="gplus" href="#" title=""><i class="fa fa-google-plus"></i></a>
+													</li>
+													<li>
+														<a class="twitt" href="#" title=""><i class="fa fa-twitter"></i></a>
+													</li>
+												</ul>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+			<div class="bottom-line">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<ul class="payment-support">
+								<li><img src="img/icon/pay1.png" alt="" /></li>
+								<li><img src="img/icon/pay2.png" alt="" /></li>
+								<li><img src="img/icon/pay3.png" alt="" /></li>
+								<li><img src="img/icon/pay4.png" alt="" /></li>
+								<li><img src="img/icon/pay5.png" alt="" /></li>
+								<li><img src="img/icon/pay6.png" alt="" /></li>
+							</ul>
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<span>本网站所有解释权 © 2016 -<a href="#">PromotShop.</a> 版权所有 </span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="js/jquery-1.12.3.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/fly.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/jquery.meanmenu.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/jquery.nivo.slider.pack.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.fly.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/shoplist.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/sousuo.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/addcart.js" type="text/javascript" charset="utf-8"></script>
+		
+
+	</body>
+
+</html>

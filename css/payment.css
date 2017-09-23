@@ -1,0 +1,336 @@
+/*payment.html*/
+
+.red {
+	color: red;
+	padding: 2px;
+	display: inline-block;
+	font-style: normal;
+	height: 40px;
+}
+.payment_area{
+	padding-top: 40px;
+}
+
+.address,
+.order_details,
+.balance,
+.payway,
+.addr_box
+{
+	width: 100%;
+	height: auto;
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+.address{
+	margin-bottom: 0;
+}
+
+.pay_title {
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	width: 100%;
+	border-bottom: 1px solid #666;
+	margin-bottom: 40px;
+}
+
+.addr_box {
+	
+	display: none;
+}
+
+.addr_box .addr_list {
+	padding: 0 25px;
+	height: auto;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.addr_box .addr_list .addr_list_item{
+	
+	padding: 10px;
+	
+}
+
+
+.addr_box .addr_list .addr_list_item .item_info{
+	border: 2px solid #ccc;
+	padding: 15px;
+	cursor: pointer;
+}
+.addr_box .addr_list .first .item_info{
+	border-color: #FF2929 !important;
+}
+.addr_box .addr_list .addr_list_item .item_info .name_phone{
+	margin-bottom: 15px;
+	line-height:20px;
+	border-bottom: 1px solid #999;
+}
+.addr_box .addr_list .addr_list_item .item_info .citys{
+	margin-bottom: 15px;
+	line-height:20px;
+	
+}
+.addr_box .addr_list .addr_list_item .item_info .addr{
+	margin-bottom: 15px;
+	line-height:20px;
+	
+}
+.addr_box .addr_list .addr_list_item .item_info .operate{
+	line-height:20px;
+	
+}
+.addr_box .icon {
+	font-family: "宋体";
+	cursor: pointer;
+	font-size: 46px;
+	font-weight: 700;
+	position: absolute;
+	top: 50%;
+	height: 40px;
+	line-height: 40px;
+	width: 20px;
+	transform: translateY(-50%);
+	display: inline-block;
+}
+
+.addr_box .left {
+	left: 0px;
+}
+
+.addr_box .right {
+	right: 0px;
+}
+
+.be_careful {}
+
+.add_new_addr {
+	font-size: 14px;
+	height: 20px;
+	line-height: 20px;
+	color: #666;
+	display: none;
+}
+
+
+
+.address .receiver_info {
+	
+	line-height: 40px;
+	width: 100%;
+	margin: 10px 0px;
+	font-size: 14px;
+}
+
+.address .receiver_info span {
+	display: inline-block;
+	width: 100%;
+	min-width: 85px;
+	color: #999;
+}
+
+.address .receiver_info input {
+	height: 26px;
+	border: 2px solid#999;
+	width: 100%;
+}
+
+.address .receiver_info select {
+	height: 24px;
+	width: 100%;
+	border: 2px solid#999;
+}
+
+.address .receiver_info #detail_addr {
+	width: 100%;
+}
+
+.address .receiver_info a {
+	display: inline-block;
+	padding: 0 20px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #7fa6c5;
+	color: #fff;
+	text-align: center;
+}
+
+.order_details {
+	margin-bottom: 30px;
+	margin-top: 60px;
+}
+
+.order_details .order_list {
+	width: 100%;
+	height: auto;
+	padding: 20px 0;
+	/*border-bottom: 1px solid #999;*/
+}
+
+.order_details ul li {
+	height: 64px;
+	padding: 10px 20px;
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+}
+
+.order_details ul li img {
+	float: left;
+	margin-right: 20px;
+	width: 64px;
+	height: 64px;
+}
+
+.order_details ul li .t {
+	float: left;
+	width: 874px;
+	height: 20px;
+	margin-top: 22px;
+}
+
+.order_details ul li .t span {
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.order_details ul li .t .name {
+	width: 590px;
+}
+
+.order_details ul li .t .number {
+	width: 60px;
+}
+
+.order_details ul li .t .money {
+	width: 80px;
+}
+
+.remarks {
+	width: 980px;
+	padding-left: 20px;
+	height: 30px;
+	line-height: 30px;
+	margin: auto;
+	margin-top: 20px;
+	color: #999;
+}
+
+.remarks input {
+	width: 600px;
+	border: none;
+	outline: none;
+	background-color: #eee;
+	height: 30px;
+}
+
+.balance .orderCashCoupon {
+	
+	color: #999;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+
+.balance .orderCashCoupon .l {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.balance .orderCashCoupon input {
+	margin-right: 10px;
+}
+
+.balance .orderCashCoupon #txtCashCoupon {
+	height: 26px;
+	padding: 0 5px;
+}
+
+.balance .orderCashCoupon #okBtn {
+	border: none;
+	outline: none;
+	background-color: #72A5F6;
+	color: #fff;
+	font-size: 14px;
+	height: 28px;
+	padding: 0 10px;
+}
+
+.balance .orderCashCoupon a {
+	color: #999;
+	text-decoration: underline;
+}
+
+.balance .orderCashCoupon .r {
+	float: right;
+	padding-right: 10px;
+}
+
+.balance .orderCashCoupon .r em {
+	font-style: normal;
+	padding-left: 10px;
+}
+
+.balance .freight {
+	width: 990;
+	text-align: right;
+	margin-bottom: 10px;
+	padding-right: 10px;
+}
+
+.balance .addr_total_payment {
+	width: 100%;
+	height: 100px;
+	background-color: #eee;
+	margin-bottom: 10px;
+}
+
+.addr_total_payment p {
+	height: 50px;
+	line-height: 50px;
+	text-align: right;
+	padding-right: 10px;
+	margin-bottom: 0;
+}
+
+.addr_total_payment .total_payment {
+	font-size: 16px;
+}
+
+.addr_total_payment .total_payment span {
+	color: #7292FA;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.payway .way span {
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	width: 80px;
+	text-align: center;
+	border: 2px solid#ddd;
+	margin-right: 20px;
+}
+
+.payway .way span.cur {
+	border-color: red;
+	color: red;
+}
+
+.okPay {
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.okPay a {
+	display: inline-block;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	background-color: red;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 3px;
+}

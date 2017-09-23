@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="img/favicon.png" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+		<link rel="stylesheet" href="css/responsive.css">
+		<link rel="stylesheet" type="text/css" href="css/shop.css" />
+		<link rel="stylesheet" type="text/css" href="css/slider.css" />
+		<title>电商-首页</title>
+
+	</head>
+
+	<body>
+		<!--页眉开始-->
+		<header class="buddy-header">
+			<div class="top-bar">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<ul class="n-menu">
+								<li>
+									<a href="javascript:;"><i class="fa fa-user"></i>我的账户</a>
+									<ul class="d-down account">
+										<li class="first">
+											<a href="login.html">登录</a>
+										</li>
+										<li class="last">
+											<a href="javascript:;">退出</a>
+										</li>
+										<li>
+											<a href="javascript:;">简况</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-usd"></i>货币</a>
+									<ul class="d-down currency">
+										<li>
+											<a href="javascript:;">欧元</a>
+										</li>
+										<li>
+											<a href="javascript:;">英镑</a>
+										</li>
+										<li>
+											<a href="javascript:;">第纳尔</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="#" title=""><img src="img/China-Flag.png" alt="" />中文</a>
+									<ul class="d-down language">
+										<li>
+											<a href="javascript:;">英语</a>
+										</li>
+										<li>
+											<a href="javascript:;">法语</a>
+										</li>
+										<li>
+											<a href="javascript:;">日语</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-12 text-center">
+							<ul class="tp-right n-menu">
+								<li class="first">
+									<a href="login.html"><i class="fa fa-sign-in"></i>登录</a>
+								</li>
+								<li>|</li>
+								<li>
+									<a href="register.html"><i class="fa fa-sign-in"></i>注册</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="logo-menu-sec">
+				<div class="container">
+					<div class="row">
+						<div class="logo-sec">
+							<div class="col-md-3 col-lg-3 col-sm-4 col-xs-12">
+								<div class="logo">
+									<a href="index.html" title=""><img src="img/logo.png" alt="" /></a>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-5 col-sm-4 hidden-xs">
+								<ul class="quick-prom">
+									<li><i class="fa fa-phone"></i> <span>咨询方式 : 088-55356789</span></li>
+									<li class="hidden-sm"><i class="fa fa-envelope-o"></i><span><a href="#">mail@example.com</a></span></li>
+								</ul>
+							</div>
+							<div class="col-md-3 col-lg-4 col-sm-4 col-xs-12">
+								<div class="product-filter-form">
+									<form>
+										<input type="text" id="search" placeholder="搜索商品" />
+										<button type="button" id="searchbtn"><i class="fa fa-search"></i></button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="main-menu-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-10 col-sm-9 col-xs-12">
+							<nav class="main-menu">
+								<ul>
+									<li class="active">
+										<a href="index.html"> <i class="fa fa-home"></i>主页</a>
+									</li>
+									<li>
+										<a href="shoplist.html">热卖商品</a>
+										<div class="mega-menu common-mega">
+											<div class="col-md-3 col-sm-3">
+												<div class="mega-menu-lists">
+													<a title="" href="shoplist.html"><span>衬衫</span></a>
+													<a title="" href="shoplist.html">长衬衫</a>
+													<a title="" href="shoplist.html">短衬衫</a>
+													<a title="" href="shoplist.html">半身衬衫</a>
+													<a title="" href="shoplist.html">全衬衫</a>
+												</div>
+											</div>
+											<div class="col-md-3 col-sm-3">
+												<div class="mega-menu-lists">
+													<a title="" href="shoplist.html"><span>裤</span></a>
+													<a title="" href="shoplist.html">长裤</a>
+													<a title="" href="shoplist.html">短裤</a>
+													<a title="" href="shoplist.html">半身裤</a>
+													<a title="" href="shoplist.html">全身裤</a>
+												</div>
+											</div>
+											<div class="col-md-3 col-sm-3">
+												<div class="mega-menu-lists">
+													<a title="" href="shoplist.html"><span>西装外套</span></a>
+													<a title="" href="shoplist.html">长西装</a>
+													<a title="" href="shoplist.html">短外套</a>
+													<a title="" href="shoplist.html">半西装外套</a>
+													<a title="" href="shoplist.html">全西装外套</a>
+												</div>
+											</div>
+											<div class="col-md-3 col-sm-3">
+												<div class="mega-menu-lists">
+													<a title="" href="shoplist.html"><span>鞋</span></a>
+													<a title="" href="shoplist.html">小码</a>
+													<a title="" href="shoplist.html">中码</a>
+													<a title="" href="shoplist.html">大码</a>
+													<a title="" href="shoplist.html">特大码</a>
+												</div>
+											</div>
+											<div class="mega-img">
+												<a href="javascript:;"><img src="img/ad3.jpg" alt=""></a>
+											</div>
+										</div>
+
+									</li>
+									<li>
+										<a href="shoplist.html">购物街</a>
+										<ul class="ddown">
+											<li class="mega-menu-lists">
+												<a href="shoplist.html">牛仔裤</a>
+											</li>
+											<li class="mega-menu-lists">
+												<a href="shoplist.html">衬衣</a>
+											</li>
+											<li class="mega-menu-lists">
+												<a href="shoplist.html">裤子</a>
+											</li>
+											<li class="mega-menu-lists">
+												<a href="shoplist.html">配饰</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="javascript:;">关于我们</a>
+									</li>
+									<li>
+										<a href="shoplist.html">热门商店</a>
+									</li>
+									<li>
+										<a href="connectus.html">联系我们</a>
+									</li>
+									<li>
+										<a href="javascript:;">博客日志</a>
+									</li>
+									<li class="mega-parent">
+										<a href="javascript:;">相关网站</a>
+										<div class="mega-menu common-mega">
+											<div class="col-md-3 col-sm-3">
+												<div class="mega-menu-lists">
+													<a title="" href="javascript:;"><span>网站社区一</span></a>
+													<a href="javascript:;">关于我们</a>
+													<a href="javascript:;">博客日志</a>
+													<a href="javascript:;">全网博客</a>
+													<a href="javascript:;">博客列表</a>
+													<a href="javascript:;">博客专栏</a>
+													<a href="javascript:;">博客社区</a>
+												</div>
+											</div>
+											<div class="col-md-3 col-sm-3">
+												<div class="mega-menu-lists">
+													<a title="" href="#"><span>网站社区二</span></a>
+													<a href="javascript:;">博客分享</a>
+													<a href="cart.html">购物车</a>
+													<a href="#">结账</a>
+													<a href="connectus.html">联系方式</a>
+													<a href="javascript:;">常见问题</a>
+													<a href="login.html">登录</a>
+												</div>
+											</div>
+											<div class="col-md-3 col-sm-3">
+												<div class="mega-menu-lists">
+													<a title="" href="javascript:;"><span>网页社区三</span></a>
+													<a href="shoplist.html">商店</a>
+													<a href="shoplist.html">全网商铺</a>
+													<a href="shoplist.html">所有店铺</a>
+													<a href="shoplist.html">商店列表</a>
+													<a href="javascript:;">意愿清单</a>
+													<a href="javascript:;">敬请期待</a>
+												</div>
+											</div>
+										</div>
+
+									</li>
+									<li>
+										<a href="javascript:;">视频链接</a>
+										<ul class="ddown">
+											<li class="mega-menu-lists">
+												<a target="_blank" href="javascript:;">更改标志</a>
+											</li>
+											<li class="mega-menu-lists">
+												<a target="_blank" href="javascript:;">更改版权</a>
+											</li>
+											<li class="mega-menu-lists">
+												<a target="_blank" href="javascript:;">更改地点</a>
+											</li>
+											<li class="mega-menu-lists">
+												<a target="_blank" href="javascript:;">联系邮箱</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+
+							</nav>
+
+							<div class="mobile-menu-area">
+								<nav id="mobile-menu">
+									<ul>
+										<li>
+											<a href="index.html">主页</a>
+										</li>
+										<li>
+											<a href="shoplist.html">热卖商品</a>
+											<ul>
+												<li>
+													<a href="shoplist.html">衬衫</a>
+												</li>
+												<li>
+													<a href="shoplist.html">裤</a>
+												</li>
+												<li>
+													<a href="shoplist.html">西装外套</a>
+												</li>
+												<li>
+													<a href="shoplist.html">鞋</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="shoplist.html">购物街</a>
+											<ul>
+												<li class="#">
+													<a href="shoplist.html">牛仔裤</a>
+												</li>
+												<li class="#">
+													<a href="shoplist.html">衬衣</a>
+												</li>
+												<li class="#">
+													<a href="shoplist.html">裤子</a>
+												</li>
+												<li class="#">
+													<a href="shoplist.html">配饰</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="javascript:;">关于我们</a>
+										</li>
+										<li>
+											<a href="shoplist.html">热门商店</a>
+										</li>
+										<li>
+											<a href="connectus.html">联系我们</a>
+										</li>
+										<li>
+											<a href="shoplist.html">产品详情</a>
+										</li>
+										<li>
+											<a href="javascript:;">博客日志</a>
+										</li>
+										<li>
+											<a href="javascript:;">相关网站</a>
+											<ul>
+												<li class="#">
+													<a href="javascript:;">关于我们</a>
+												</li>
+												<li class="#">
+													<a href="javascript:;">博客日志</a>
+												</li>
+												<li class="#">
+													<a href="javascript:;">全网博客</a>
+												</li>
+												<li class="#">
+													<a href="javascript:;">博客列表</a>
+												</li>
+												<li class="#">
+													<a href="javascript:;">博客专栏</a>
+												</li>
+												<li class="#">
+													<a href="javascript:;">博客社区</a>
+												</li>
+												<li class="#">
+													<a href="javascript:;">博客分享</a>
+												</li>
+												<li class="#">
+													<a href="cart.html">购物车</a>
+												</li>
+												<li class="#">
+													<a href="#">结账</a>
+												</li>
+												<li class="#">
+													<a href="connectus.html">联系我们</a>
+												</li>
+												<li class="#">
+													<a href="javascript:;">常见问题</a>
+												</li>
+												<li class="#">
+													<a href="login.html">登录</a>
+												</li>
+												<li class="#">
+													<a href="shoplist.html">商店</a>
+												</li>
+												<li class="#">
+													<a href="shoplist.html">全网商铺</a>
+												</li>
+												<li class="#">
+													<a href="shoplist.html">所有店铺</a>
+												</li>
+												<li class="#">
+													<a href="shoplist.html">店铺列表</a>
+												</li>
+												<li class="#">
+													<a href="javascript:;">意愿清单</a>
+												</li>
+												<li class="#">
+													<a href="javascript:;">敬请期待</a>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</nav>
+							</div>
+
+						</div>
+
+						<div class="col-md-2 col-sm-3 hidden-xs">
+							<div class="cart-wishlist">
+								<ul>
+									<li>
+										<a href="javascript:;">
+											<div class="wishlist">
+												<div class="wish-list-inner">
+													<i class="fa fa-heart"></i>
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="javascript:;">
+											<div class="wish-list-inner">
+												<div class="cart-icon">
+													<i class="fa fa-shopping-cart" id="end"> </i>
+													<div class="cart-count text-center">
+														<strong>0</strong>
+													</div>
+												</div>
+											</div>
+										</a>
+										<div class="cart-sub">
+											<div class="all_carts_item">
+
+											</div>
+											<div class="minicart_total_checkout">
+												合计<span><span class="amount">$13.00</span></span>
+											</div>
+											<div class="btn-mini-cart inline-lists">
+												<a href="javascript:;" class="button btn-viewcart">浏览购物车</a>
+												<a href="javascript:;" class="button btn-checkout" title="Checkout">结账</a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--页眉结束-->
+		<!--广告轮播图开始-->
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<a href="http://www.iliangcang.com/i/topicapp/201703161323">
+						<img src="img/976.jpg" alt="...">
+					</a>
+
+					<div class="carousel-caption">
+
+					</div>
+				</div>
+
+			</div>
+
+			<!-- Controls -->
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+		<!--广告轮播图结束-->
+
+		<!--广告开始-->
+		<section class="ad container">
+			<div class="row">
+				<div class="col-sm-3 col-xs-6">
+					<div class="ad_inner inner ">
+						<img src="img/banner02.jpg" class="ad_img" />
+						<div class="ad_info">
+							<p class="ad_desc">2017新年收藏版</p>
+							<h1 class="ad_title">真棒包</h1>
+							<span class="btn">现在去购物</span>
+						</div>
+					</div>
+					<div class="ad_inner inner">
+						<img src="img/banner03.jpg" class="ad_img" />
+						<div class="ad_info">
+							<p class="ad_desc">2017新年收藏版</p>
+							<h1 class="ad_title">真棒包</h1>
+							<span class="btn">现在去购物</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 hidden-xs">
+					<div class="ad_inner inner">
+						<img src="img/banner01.jpg" class="ad_img" />
+						<div class="ad_info">
+							<p class="ad_desc">2017新年收藏版</p>
+							<h1 class="ad_title">真棒包</h1>
+							<span class="btn">现在去购物</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3 col-xs-6">
+					<div class="ad_inner inner">
+						<img src="img/banner04.jpg" class="ad_img" />
+						<div class="ad_info">
+							<p class="ad_desc">2017新年收藏版</p>
+							<h1 class="ad_title">真棒包</h1>
+							<span class="btn">现在去购物</span>
+						</div>
+					</div>
+					<div class="ad_inner inner">
+						<img src="img/banner05.jpg" class="ad_img" />
+						<div class="ad_info">
+							<p class="ad_desc">2017新年收藏版</p>
+							<h1 class="ad_title">真棒包</h1>
+							<span class="btn">现在去购物</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--广告结束-->
+		<!--特色产品开始-->
+		<section class="special container">
+			<div class="row title">
+				<h1 class="sp_title">特色产品</h1>
+				<div class="">
+					<nav class="sp_nav navbar navbar-default  center-block">
+						
+						<div class="container-fluid">
+							<div class="navbar-header">
+								<button type="button" class="navbtn navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							        <span class="sr-only">Toggle navigation</span>
+							        <span class="icon-bar"></span>
+							        <span class="icon-bar"></span>
+							        <span class="icon-bar"></span>
+							   </button>
+							</div>
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								
+									<ul class="nav navbar-nav ">
+										<li class="active hidden-xs">
+											<a href="javascript:;">商品列表</a>
+										</li>
+	
+									</ul>
+								
+								
+							</div>
+							<!-- /.navbar-collapse -->
+						</div>
+						<!-- /.container-fluid -->
+					</nav>
+				</div>
+			</div>
+			<div class="row content">
+				<div class="row"></div>
+				
+			</div>
+		</section>
+		<!--特色产品结束-->
+
+		<!--广告条开始-->
+
+		<!--<section class="add-slider-area">
+			<div class="container">
+				<div class="slider-container">
+					<div class="mainSlider nivoSlider slider-image">
+						<img src="img/5.jpg" />
+						<img src="img/6.jpg" />
+						<img class="nivo-main-image" src="img/5.jpg" />
+					</div>
+
+				</div>
+			</div>
+		</section>-->
+
+		<!--广告条结束-->
+
+		<!--惊喜商品开始-->
+		<div class="upcoming-product-area pt55 pb55 mt55">
+			<div class="container">
+				<div class="section-title text-center pb30">
+					<h1>即将上架</h1>
+					<span></span>
+				</div>
+				<div class="row">
+					<div class="upcoming-curosel">
+						<div class="upcoming-single">
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="upcoming-img">
+									<div class="item-product">
+										<div class="item-product-thumb item-thumb-product">
+											<a href="#"><img src="img/s01.jpg" alt="" /></a>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+							<div class="col-md-8 col-sm-6 col-xs-12">
+								<div class="uc-table">
+									<div class="uc-table-cell">
+										<div class="upcoming-content">
+											<h2><a href="#">牛仔衬衫</a></h2>
+											<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+											<div class="price">
+												上市价格 :
+												<span>$350.00</span>
+											</div>
+											<div class="wenzi">
+												距离上市还有：
+											</div>
+											<div class="timer">
+												
+											</div>
+											<div class="prodcut-social-share">
+												<ul>
+													<li>
+														<a class="fbook" href="#"><i class="fa fa-facebook"></i>分享</a>
+													</li>
+													<li>
+														<a class="twit" href="#"><i class="fa fa-twitter"></i>特级</a>
+													</li>
+													<li>
+														<a class="gplus" href="#"><i class="fa fa-google-plus"></i>谷歌搜索</a>
+													</li>
+													<li>
+														<a class="prest" href="#"><i class="fa fa-pinterest-p"></i>品趣志</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--惊喜商品结束-->
+
+		<!--特殊产品开始-->
+		<section class="features container">
+			<div class="row title">
+				<h1 class="sp_title">特殊产品</h1>
+
+			</div>
+			<div class="row">
+				<div class="col col-md-4 ">
+					<div class="col_title">
+						夏季系列
+					</div>
+
+					<div class="summer itemBox">
+						<div class="item">
+
+							<img src="img/s02.jpg" alt="..." class="item_img">
+							<div class="lab">55%off</div>
+							<div class="item_info">
+								<div class="info">
+									<p class="info_name">ximeng</p>
+									<p class="price">
+										<span class="new_price">$123</span>
+										<span class="old_price">$234</span>
+									</p>
+									<p class="info_btn">
+										<span class="btn">
+											<i class="glyphicon glyphicon-heart"></i>
+										</span>
+										<span class="btn">
+											<i class="glyphicon glyphicon-shopping-cart"></i>
+										</span>
+										<span class="btn">
+											<i class="glyphicon glyphicon-search"></i>
+										</span>
+									</p>
+								</div>
+								<div class="count_down">
+									<span class="days">0天</span>
+									<span class="hour">0时</span>
+									<span class="min">00分</span>
+									<span class="sec">00秒</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="col col-md-4 ">
+					<div class="col_title">
+						新来者
+					</div>
+					<div class="newComer itemBox">
+						<div class="item">
+
+							<img src="img/s02.jpg" alt="..." class="item_img">
+							<div class="lab">new</div>
+							<div class="item_info">
+								<div class="info">
+									<p class="info_name">ximeng</p>
+									<p class="price">
+										<span class="new_price">$123</span>
+										<span class="old_price">$234</span>
+									</p>
+									<p class="info_btn">
+										<span class="btn">
+											<i class="glyphicon glyphicon-heart"></i>
+										</span>
+										<span class="btn">
+											<i class="glyphicon glyphicon-shopping-cart"></i>
+										</span>
+										<span class="btn">
+											<i class="glyphicon glyphicon-search"></i>
+										</span>
+									</p>
+								</div>
+								<div class="count_down">
+									<span class="days">0天</span>
+									<span class="hour">0时</span>
+									<span class="min">00分</span>
+									<span class="sec">00秒</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="col col-md-4 ">
+					<div class="col_title">
+						冬季系列
+					</div>
+
+					<div class="winter itemBox">
+						<div class="item">
+
+							<img src="img/s02.jpg" alt="..." class="item_img">
+							<div class="lab">65%off</div>
+							<div class="item_info">
+								<div class="info">
+									<p class="info_name">ximeng</p>
+									<p class="price">
+										<span class="new_price">$123</span>
+										<span class="old_price">$234</span>
+									</p>
+									<p class="info_btn">
+										<span class="btn">
+											<i class="glyphicon glyphicon-heart"></i>
+										</span>
+										<span class="btn">
+											<i class="glyphicon glyphicon-shopping-cart"></i>
+										</span>
+										<span class="btn">
+											<i class="glyphicon glyphicon-search"></i>
+										</span>
+									</p>
+								</div>
+								<div class="count_down">
+									<span class="days">0天</span>
+									<span class="hour">0时</span>
+									<span class="min">00分</span>
+									<span class="sec">00秒</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<!--特殊产品结束-->
+		<!--页脚开始-->
+		<div class="section-info pt55 pb55">
+			<div class="parallax-bg">
+
+				<div class="section-content">
+					<div class="container">
+						<div class="row">
+
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<a class="info-block" href="#"><i class="fa fa-truck"></i>
+									<h3>免费送货</h3>
+									<p>免运费全国各地</p>
+								</a>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<a class="info-block" href="#"><i class="fa fa-headphones"></i>
+									<h3>支持定制</h3>
+									<p>全天候24小时支持</p>
+								</a>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<a class="info-block" href="#"><i class="fa fa-diamond"></i>
+									<h3>高品质</h3>
+									<p>拥有最好的品质和品牌</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="our_clients_area pt55 pb55">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+						<div class="section-title text-center pb30">
+							<h1>品牌与客户</h1>
+							<span></span>
+						</div>
+						<div class="client-active">
+							<div class="client-name">
+								<img src="img/client/01.png" alt="">
+							</div>
+							<div class="client-name">
+								<img src="img/client/02.png" alt="">
+							</div>
+							<div class="client-name">
+								<img src="img/client/03.png" alt="">
+							</div>
+							<div class="client-name">
+								<img src="img/client/04.png" alt="">
+							</div>
+							<div class="client-name">
+								<img src="img/client/05.png" alt="">
+							</div>
+							<div class="client-name">
+								<img src="img/client/06.png" alt="">
+							</div>
+							<div class="client-name">
+								<img src="img/client/04.png" alt="">
+							</div>
+							<div class="client-name">
+								<img src="img/client/03.png" alt="">
+							</div>
+							<div class="client-name">
+								<img src="img/client/02.png" alt="">
+							</div>
+							<div class="client-name">
+								<img src="img/client/01.png" alt="">
+							</div>
+							<div class="client-name">
+								<img src="img/client/05.png" alt="">
+							</div>
+							<div class="client-name">
+								<img src="img/client/06.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="footer-widgets-area pt55">
+				<section class="block">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="content-box no-margin go-simple">
+									<div class="row">
+										<div class="col-md-3 col-sm-4 col-xs-12">
+											<div class="widget about-widget">
+												<div class="logo">
+													<a href="index.html"><img alt="" src="img/logo2.png"></a>
+												</div>
+												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
+												<ul>
+													<li>
+														<i class="fa fa-map-marker"></i> Mukkey-doe Roboto square 2/1 House Hsmilton villa
+													</li>
+													<li>
+														<i class="fa fa-phone"></i> 055-99358766 &nbsp;&nbsp;&nbsp; 088-15698451
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="col-md-3 col-sm-4 col-xs-12">
+											<div class="widget how-to-buy">
+												<h3 class="heading2">客户服务</h3>
+												<ul>
+													<li>
+														<a href="#" title="">联系我们</a>
+													</li>
+													<li>
+														<a href="#" title="">网站地图</a>
+													</li>
+													<li>
+														<a href="#" title="">条款与条件</a>
+													</li>
+													<li>
+														<a href="#" title="">礼品</a>
+													</li>
+												</ul>
+											</div>
+
+										</div>
+										<div class="col-md-3 hidden-sm col-xs-12">
+											<div class="widget customer-services">
+												<h3 class="heading2">信息</h3>
+												<ul>
+													<li>
+														<a href="#" title="">我们的博客</a>
+													</li>
+													<li>
+														<a href="#" title="">关于我们的店铺</a>
+													</li>
+													<li>
+														<a href="#" title="">安全购物</a>
+													</li>
+													<li>
+														<a href="#" title="">隐私政策</a>
+													</li>
+												</ul>
+											</div>
+
+										</div>
+										<div class="col-md-3 col-sm-4 col-xs-12">
+											<div class="widget news-letter">
+												<h3 class="heading2">新闻名注册</h3>
+												<p>订阅新品上架和其他折扣信息的接收</p>
+												<form>
+													<input type="text" placeholder="请输入你的邮箱" />
+													<button type="submit"><i class="fa fa-search"></i></button>
+												</form>
+												<ul class="social-buttons">
+													<li>
+														<a class="fbook" href="#" title=""><i class="fa fa-facebook"></i></a>
+													</li>
+													<li>
+														<a class="frss" href="#" title=""><i class="fa fa-rss"></i></a>
+													</li>
+													<li>
+														<a class="tublr" href="#" title=""><i class="fa fa-linkedin"></i></a>
+													</li>
+													<li>
+														<a class="gplus" href="#" title=""><i class="fa fa-google-plus"></i></a>
+													</li>
+													<li>
+														<a class="twitt" href="#" title=""><i class="fa fa-twitter"></i></a>
+													</li>
+												</ul>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+			<div class="bottom-line">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<ul class="payment-support">
+								<li><img src="img/icon/pay1.png" alt="" /></li>
+								<li><img src="img/icon/pay2.png" alt="" /></li>
+								<li><img src="img/icon/pay3.png" alt="" /></li>
+								<li><img src="img/icon/pay4.png" alt="" /></li>
+								<li><img src="img/icon/pay5.png" alt="" /></li>
+								<li><img src="img/icon/pay6.png" alt="" /></li>
+							</ul>
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<span>本网站所有解释权 © 2016 -<a href="#">PromotShop.</a> 版权所有 </span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</body>
+	<script src="js/jquery-1.12.3.min.js" type="text/javascript" charset="utf-8"></script>
+
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/fly.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.meanmenu.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.nivo.slider.pack.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery.fly.min.js" type="text/javascript" charset="utf-8"></script>
+	
+	<script src="js/sousuo.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/addcart.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	
+	
+
+</html>

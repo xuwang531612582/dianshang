@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.breadcumb-area {
+  position: relative;
+  width: 100%;
+  min-height: 300px;
+  background: url(../img/breadcumb-bg.jpg) no-repeat scroll 50% 0 / cover;
+}
+
+.bread-main {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -50px;
+  color: #fff;
+  text-align: center;
+}
+
+.bread-main ol {
+  list-style: none;
+}
+
+.bread-main ol li {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.bread-main ol li a {
+  color: #fff;
+  transition: all 0.5s ease 0s;
+}
+
+.bread-main ol li.bread-home:hover a {
+  color: #FF2929;
+  text-decoration: none;
+}
+
+.bread-main ol li.bread-login::before {
+  content: ">";
+  padding-left: 4px;
+  padding-right: 6px;
+}
+
+.account-area {
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.account-area .text-reg {
+  border: 1px solid #ccc;
+  border-bottom: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.account-area .text-reg h3 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  padding-left: 2px;
+}
+
+.account-area .text-reg label {
+  padding-left: 2px;
+}
+
+.account-area .btn-reg {
+  border: 1px solid #ccc;
+  border-top: none;
+  padding: 20px;
+  background: #ededed;
+}
+
+.account-area .btn-reg .btn-submit {
+  padding: 0 30px;
+  background: #3b3330;
+  color: #fff;
+  font-weight: 700;
+  height: 40px;
+  outline: none;
+  border: none;
+  transition: all 0.3s ease 0s;
+}
+
+.account-area .btn-reg .btn-submit:hover {
+  color: #FF2929;
+}
+
+.account-area .btn-reg .anchor {
+  float: right;
+  margin-top: 10px;
+}
+
+.account-area .btn-reg .forgotten {
+  color: #727272;
+  transition: all 0.3s ease 0s;
+}
+
+.account-area .btn-reg .forgotten:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.account-area span.tip {
+  color: #999;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.account-area span.wrong {
+  color: #EE2222;
+}
+
+.account-area input.error {
+  border-color: #EE2222;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(238, 34, 34, .6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(238, 34, 34, .6);
+}
+
+.suclogin {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 16px;
+}

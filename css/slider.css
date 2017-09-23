@@ -1,0 +1,23 @@
+.add-slider-area{
+	padding-bottom: 40px;
+}
+.add-slider-area .slider-container .slider-image{
+	position: relative;
+}
+.slider-image img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: none;
+	
+}
+.nivo-main-image{
+	position: relative !important;
+	width: 100% !important;
+	display: block !important;
+}
+.nivo-caption{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
